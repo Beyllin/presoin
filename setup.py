@@ -12,9 +12,9 @@ setup(
 	long_description_content_type = "text/markdown",
 	license = "CC BY-NC-SA 4.0",
 	python_requires = ">=3.9",
-	author = "An0nimia",
-	author_email = "An0nimia@protonmail.com",
-	url = "https://github.com/An0nimia/deezloader",
+	author = "Beyllin",
+	author_email = "Pandasoa@protonmail.com",
+	url = "https://github.com/Beyllin/presoin",
 
 	packages = [
 		"deezloader",
