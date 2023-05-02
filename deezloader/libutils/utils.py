@@ -125,7 +125,7 @@ def set_path(
 		song_name = f"{album} CD {discnum} TRACK {tracknum}"
 
 	elif method_save == 1:
-		song_name = f"{music} - {artist}"
+		song_name = f"{artist} - {music}"
 
 	elif method_save == 2:
 		isrc = song_metadata['isrc']
@@ -139,7 +139,7 @@ def set_path(
 	song_dir = __get_dir(song_metadata, output_dir, method_save)
 	__check_dir(song_dir)
 	n_tronc = __get_tronc(song_name)
-	song_path = f"{song_dir}{song_name[:n_tronc]} ({song_quality}){file_format}"
+	song_path = f"{song_dir}{song_name[:n_tronc]} ({song_quality}) {file_format}"
 
 	return song_path
 
