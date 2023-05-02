@@ -1,3 +1,14 @@
+Metadata-Version: 2.1
+Name: presoin
+Version: 2023.5.1
+Summary: Downloads songs, albums or playlists from deezer
+Home-page: https://github.com/Beyllin/presoin
+Author: Beyllin
+Author-email: Pandasoa@protonmail.com
+License: CC BY-NC-SA 4.0
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
 # deezloader
 
 This project has been created to download songs, albums or playlists with Spotify or Deezer link from Deezer.

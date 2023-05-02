@@ -119,22 +119,22 @@ def set_path(
 	artist = var_excape(song_metadata['artist'])
 	music = var_excape(song_metadata['music'])
 
-	if method_save == 0:
-		discnum = song_metadata['discnum']
-		tracknum = song_metadata['tracknum']
-		song_name = f"{album} CD {discnum} TRACK {tracknum}"
+	##if method_save == 0:
+		##discnum = song_metadata['discnum']
+		##tracknum = song_metadata['tracknum']
+		##song_name = f"{album} CD {discnum} TRACK {tracknum}"
 
 	elif method_save == 1:
 		song_name = f"{artist} - {music}"
 
-	elif method_save == 2:
-		isrc = song_metadata['isrc']
-		song_name = f"{music} - {artist} [{isrc}]"
+	##elif method_save == 2:
+		##isrc = song_metadata['isrc']
+		##song_name = f"{music} - {artist} [{isrc}]"
 
-	elif method_save == 3:
-		discnum = song_metadata['discnum']
-		tracknum = song_metadata['tracknum']
-		song_name = f"{discnum}|{tracknum} - {music} - {artist}"
+	##elif method_save == 3:
+		##discnum = song_metadata['discnum']
+		##tracknum = song_metadata['tracknum']
+		##song_name = f"{discnum}|{tracknum} - {music} - {artist}"
 
 	song_dir = __get_dir(song_metadata, output_dir, method_save)
 	__check_dir(song_dir)

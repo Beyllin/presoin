@@ -1,12 +1,11 @@
 Metadata-Version: 2.1
-Name:mpresoin
+Name: deezloader
 Version: 2022.3.5
 Summary: Downloads songs, albums or playlists from deezer
 Home-page: https://github.com/Beyllin/presoin
 Author: Beyllin
 Author-email: Pandasoa@protonmail.com
 License: CC BY-NC-SA 4.0
-Platform: UNKNOWN
 Requires-Python: >=3.9
 Description-Content-Type: text/markdown
 
@@ -201,3 +200,10 @@ downloa.download_name(
 )
 ```
 
+# DONATION
+
+IF YOU ARE POOR DON'T DONATE I AM ALSO POOR, IF YOU ARE RICH JUST PRESS [HERE](https://www.paypal.com/paypalme/an0nimia) THANKS YOU :)
+
+# HEY YOUUUU
+
+Too Lazy to finish the shitty documentation with VSCode you should be able discover the other params, methods and propieties I will try to do something more professional, MAYBE :)

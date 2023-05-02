@@ -5,11 +5,6 @@ deezloader/__init__.py
 deezloader/__taggers__.py
 deezloader/easy_spoty.py
 deezloader/exceptions.py
-deezloader.egg-info/PKG-INFO
-deezloader.egg-info/SOURCES.txt
-deezloader.egg-info/dependency_links.txt
-deezloader.egg-info/requires.txt
-deezloader.egg-info/top_level.txt
 deezloader/bin/deez-dw.py
 deezloader/bin/deez-web.py
 deezloader/deezloader/__download__.py
@@ -54,3 +49,8 @@ deezloader/spotloader/__download__.py
 deezloader/spotloader/__init__.py
 deezloader/spotloader/__spo_api__.py
 deezloader/spotloader/spotify_settings.py
+presoin.egg-info/PKG-INFO
+presoin.egg-info/SOURCES.txt
+presoin.egg-info/dependency_links.txt
+presoin.egg-info/requires.txt
+presoin.egg-info/top_level.txt
